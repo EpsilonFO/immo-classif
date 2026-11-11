@@ -1,0 +1,14 @@
+{
+  "num_leaves": 82,
+  "min_child_samples": 12,
+  "colsample_bytree": 0.3904084574260417,
+  "subsample": 0.9128535509090706,
+  "reg_lambda": 5.083398827087127,
+  "reg_alpha": 0.014764638106653592,
+  "min_split_gain": 0.45508803917989277,
+  "cat_smooth": 52.02576770056927,
+  "cat_l2": 20.261224039527857,
+  "max_cat_to_onehot": 8,
+  "path_smooth": 32.75060204524835,
+  "te": true
+}
