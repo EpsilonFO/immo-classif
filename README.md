@@ -4,8 +4,6 @@ Prédire si une demande de prêt immobilier est accordée, à partir de 56 varia
 [`demandes-de-pret-immobilier-aux-etats-unis`](https://www.kaggle.com/competitions/demandes-de-pret-immobilier-aux-etats-unis),
 métrique AUC ROC.
 
-Le détail des étapes, des choix et des scores est dans [`JOURNAL.md`](JOURNAL.md).
-
 ## Installation
 
 Il faut [uv](https://docs.astral.sh/uv/) et un token Kaggle (sur Mac, aussi `brew install libomp`).
@@ -28,7 +26,7 @@ uv run main.py report                                                        # t
 ```
 
 Modèles disponibles : `lgbm`, `xgb`, `cat`, `hgb`, `logreg`, `rf`, `et`, `realmlp`, `tabm`.
-Jeux de variables : `raw`, `v1`, `v2`, `v3`, `v4` (décrits dans le journal).
+Jeux de variables : `raw`, `v1`, `v2`, `v3`, `v4` (décrits dans `src/hmda/features.py`).
 
 Chaque entraînement écrit ses prédictions OOF dans `outputs/oof/`, ses prédictions test dans `outputs/preds/`, une
 soumission dans `outputs/submissions/` et une ligne dans `outputs/experiments.csv`.
