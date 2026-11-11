@@ -1,0 +1,13 @@
+__pycache__/
+*.py[oc]
+*.egg-info
+.venv
+.env
+.DS_Store
+.ruff_cache/
+catboost_info/
+# Données Kaggle (re-téléchargées par kagglehub) et soumissions générées
+data/competitions/
+data/external/
+outputs/submissions/
+outputs/logs/
