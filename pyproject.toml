@@ -8,7 +8,9 @@ dependencies = [
     "catboost>=1.2.10",
     "kagglehub>=1.0.2",
     "lightgbm>=4.7.0",
+    "marimo>=0.25.1",
     "matplotlib>=3.11.2",
+    "obliquetree>=1.1.1",
     "optuna>=5.0.0",
     "pandas>=3.0.6",
     "pytabkit==1.8.0",
@@ -17,6 +19,7 @@ dependencies = [
     "scipy>=1.18.1",
     "tabm==0.0.3",
     "torch>=2.14.0",
+    "umap-learn>=0.5.12",
     "xgboost>=3.4.1",
 ]
 

@@ -102,3 +102,7 @@ soumission dans `outputs/submissions/` et une ligne dans `outputs/experiments.cs
 | **Stacking des 13 modèles (soumission finale)** | **0,92282** (Kaggle : 0,92248) |
 
 La validation croisée est faite sur 5 plis fixes (`data/folds.csv`).
+
+# Pour exécuter classification_fouilli_marimo.py:
+
+Exécuter `uv run marimo classification_fouilli_marimo.py`.
